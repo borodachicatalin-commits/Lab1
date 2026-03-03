@@ -1,62 +1,77 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delta Shop | Acasă</title>
-    <link rel="stylesheet" href="#">
+    <title>CarpShop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
-        <nav class="navbar">
-            <div class="logo">Delta<span>Shop</span></div>
-            <ul class="nav-links">
-                <li><a href="index.html">Acasă</a></li>
-                <li><a href="produse.html">Produse</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none; color: inherit;">Carp<span>Shop</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Acasă</a> </li>
+            <li><a href="produse.html">Produse</a></li>
+            <li><a href="contacte.html">Contacte</a></li>
+        </ul>
+    </nav>
     </header>
 
-    <section class="hero-simple">
-        <h1>Echipamente de Pescuit pentru Profesioniști</h1>
-        <p>Calitate garantată pentru orice tip de apă și orice specie de pește.</p>
+    <main>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>CarpShop - Totul pentru pescuit</h1>
+            <p>Descoperă cele mai bune produse pentru pescuit</p>
+            <a href="produse.html" class="btn-main">Vezi Produsele</a>
+        </div>
     </section>
 
-    <main class="container">
-        
-        <section class="info-box">
-            <h2>De ce să alegi Delta Shop?</h2>
-            <p>Suntem pasionați de pescuit la fel ca tine. Magazinul nostru oferă soluții complete pentru:</p>
-            
-            <div class="info-grid">
-                <article>
-                    <h3>🎣 Echipament Variat</h3>
-                    <p>De la lansete telescopice până la mulinete de spinning de ultimă generație.</p>
-                </article>
+    <section class="feature-products">
+        <h2 class="section-title">Produse Recomandate</h2>
 
-                <article>
-                    <h3>🗺️ Sfaturi pentru Locații</h3>
-                    <p>Te ajutăm să alegi momeala potrivită în funcție de zona în care pescuiești.</p>
-                </article>
-
-                <article>
-                    <h3>🚚 Livrare în Toată Țara</h3>
-                    <p>Produsele ajung la tine în siguranță, gata pentru următoarea ieșire în natură.</p>
-                </article>
+        <div class="products-container">
+            <div class="product-card">
+                <img src="pictures/lanseta.jpg" width="300" height="200" alt="Lansetă Carp">
+                <div class="product-info">
+                    <h3>Lansetă Shimano Tribal</h3>
+                    <p class="price">1980 Lei</p>
+                    <button class="btn-buy">Adaugă în coș</button>
+                </div>
             </div>
-        </section>
 
-        <section class="simple-text">
-            <h2>Povestea Noastră</h2>
-            <p>Delta Shop a început dintr-o pasiune pentru Delta Dunării. Credem că echipamentul potrivit face diferența dintre o zi obositoare și o captură memorabilă. Toate produsele noastre sunt testate în condiții reale înainte de a fi puse la vânzare.</p>
-        </section>
+            <div class="product-card">
+                <img src="pictures/mulineta.jpg" width="300" height="200" alt="Mulinetă Crap">
+                <div class="product-info">
+                    <h3>Mulinetă Okuma 8K</h3>
+                    <p class="price">860 Lei</p>
+                    <button class="btn-buy">Adaugă în coș</button>
+                </div>
+            </div>
 
+            <div class="product-card">
+                <img src="pictures/mulineta.jpg" width="300" height="200" alt="Mulinetă Crap">
+                <div class="product-info">
+                    <h3>Mulinetă Okuma 8K</h3>
+                    <p class="price">860 Lei</p>
+                    <button class="btn-buy">Adaugă în coș</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="pictures/mulineta.jpg" width="300" height="200" alt="Mulinetă Crap">
+                <div class="product-info">
+                    <h3>Mulinetă Okuma 8K</h3>
+                    <p class="price">860 Lei</p>
+                    <button class="btn-buy">Adaugă în coș</button>
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Delta Shop. Toate link-urile importante se află în meniul de sus.</p>
+        <p>&copy; 2026 Delta Shop. Fir întins!</p>
     </footer>
 
 </body>
